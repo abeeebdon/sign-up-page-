@@ -1,0 +1,92 @@
+body {
+  margin: 5px;
+  margin: 0 auto;
+  background-color: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#head {
+  background-image: url(halie-west.jpg);
+  background-size: cover;
+  position: relative;
+  width: 800px;
+  height: 750px;
+}
+#head #headd {
+  width: auto;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(65, 55, 55, 0.425);
+}
+#head #headd p {
+  padding-left: 40px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+}
+img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+form {
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px 0;
+}
+#form_1 {
+  background-color: white;
+  border: 1px solid white;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: small;
+}
+#test {
+  width: 450px;
+}
+input {
+  width: 150px;
+}
+#button {
+  margin: 20px 0;
+  background-color: white;
+}
+
+#but {
+  color: white;
+  background-color: rgb(34, 97, 34);
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: medium;
+}
+#butt {
+  color: rgb(45, 145, 45);
+  border: none;
+  font-size: medium;
+}
