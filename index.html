@@ -4,66 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIDE HUSTLE ASSIGNMENT</title>
+    <title>ODIN</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- did this with side hustle -->
     <div class="container">
-      <div id="head">
+      <header>
+        <div class="odin1">
+          <img
+            src="odin-lined.png"
+            alt="ODIN IMAGE"
+            width="75px"
+            height="90px"
+            class="header-img"
+          />
+          <div class="odin-paragraph">
+            <p>ODIN</p>
+          </div>
+        </div>
+      </header>
+      <div class="head">
         <!-- background image will be flower  -->
-        <div id="headd">
+        <div class="odin">
           <img
             src="odin-lined.png"
             alt="ODIN IMAGE"
             width="75px"
             height="90px"
           />
-          <p>ODIN</p>
+          <p class="">ODIN</p>
         </div>
       </div>
 
-      <div id="part_2">
-        <div id="test">
+      <div class="wrapper">
+        <div class="test">
           <p>
             This is not a real online services! You know you need something like
             this in your life to help you realize your dreams. Sign up now to
-            get started. <br />
-           <p> You know you want to.</p>
+            get started.
           </p>
+          <p>You know you want to.</p>
         </div>
-        <div id="form">
-          <div id="form_1">
-          <h2>Let's do this</h2>
-          <form action="#">
-            <div id="firstname">
-              <label for="name">First name</label><br />
-              <input type="text" required /><br />
-            </div>
-            <div id="lastname">
-              <label for="name">last name</label><br />
-              <input type="text" required /><br />
-            </div>
-            <div id="email">
-              <label for="name">E-mail</label><br />
-              <input type="email" required /><br />
-            </div>
-            <div id="phone">
-              <label for="name">Phone Number</label><br />
-              <input type="tel" required /><br />
-            </div>
-            <div id="password">
-              <label for="name">Password</label><br />
-              <input type="password" required /><br />
-            </div>
-            <div id="confirm">
-              <label for="name">Confirm Password</label><br />
-              <input type="password" required /><br />
-            </div>
-          </form>
+        <div class="form-wrapper">
+          <div class="form-heading">
+            <h2>Let's do this!</h2>
           </div>
-          <div id="button">
-            <button id="but">Create Account</button>
-            <p>Already have an account? <button id="butt">Log in</button></p>
+          <div class="form">
+            <form class="grid-container">
+              <div class="grid-item">
+                <label for="firstname">First name</label><br />
+                <input type="text" id="firstname" required /><br />
+              </div>
+              <div class="grid-item">
+                <label for="lastname">last name</label><br />
+                <input type="text" id="lastname" required /><br />
+              </div>
+              <div class="grid-item">
+                <label for="email">E-mail</label><br />
+                <input type="email" id="email" required /><br />
+              </div>
+              <div class="grid-item">
+                <label for="phone">Phone Number</label><br />
+                <input type="tel" id="phone" required /><br />
+              </div>
+              <div class="grid-item">
+                <label for="name">Password</label><br />
+                <input type="password" id="name" required /><br />
+              </div>
+              <div class="grid-item">
+                <label for="name">Confirm Password</label><br />
+                <input type="password" required /><br />
+              </div>
+            </form>
+          </div>
+
+          <div class="button">
+            <button class="btn" id="createAccount">Create Account</button>
+            <p>
+              Already have an account?
+              <a href="#" class="log-in" id="logIn">Log In</a>
+            </p>
           </div>
         </div>
       </div>
