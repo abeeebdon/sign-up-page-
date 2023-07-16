@@ -17,8 +17,10 @@ body {
   gap: 20px;
 }
 
+
 /* first
  flex item  */
+ /* the header outputs for responsiveness */
 header {
   display: none;
 }
@@ -162,6 +164,7 @@ label {
     width: 100vw;
     height: 10vh;
     position: relative;
+    margin-bottom: 10px;
   }
   .odin1 {
     position: absolute;
@@ -178,7 +181,6 @@ label {
     top: 30%;
     bottom: 0%;
     margin: auto;
-
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     font-size: xx-large;
@@ -210,5 +212,8 @@ label {
   .grid-item {
     width: 90%;
     margin: 0 auto;
+  }
+  header{
+    margin-bottom: 20px;
   }
 }
